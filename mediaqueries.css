@@ -55,6 +55,9 @@
     #about, #projects {
       height: 100vh;
     }
+    /* #projects .about-containers {
+      flex-wrap: wrap;
+    } */
   }
 
   @media screen and (max-width: 770px) {
@@ -73,7 +76,7 @@
     .about-pic {
       margin-left: 2rem;
     }
-    .arrow {
+    .arrow, .arrow-up {
       display: none;
     }
   }
@@ -110,13 +113,13 @@
     .nav-links li a {
       font-size: 1rem;
     }
-    .experience-sub-title, .project-2 .experience-sub-title {
+    .experience-sub-title, .project-2 .experience-sub-title, .project-3 .experience-sub-title {
       font-size: 1.25rem;
     }
-    .project-2 {
+    .project-2, .project-3 {
       width: 20rem;
     }
-    .project-2 .project-title {
+    .project-2 .project-title, .project-3 .project-title  {
       margin: 2rem 2rem;
     }
     .logo {

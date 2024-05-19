@@ -314,6 +314,13 @@ section {
   bottom: 2.5rem;
 }
 
+.arrow-up {
+  position: absolute;
+  right: -5rem;
+  bottom: -12rem;
+  transform: rotate(180deg);
+}
+
 .details-container {
   padding: 1.5rem;
   flex: 1;
@@ -423,7 +430,7 @@ article .icon {
   border-color: rgb(163, 163, 163);
 }
 
-.project-2 {
+.project {
   padding: 1.5rem;
   border-radius: 2rem;
   border: rgb(53, 53, 53) 0.1rem solid;
@@ -434,14 +441,20 @@ article .icon {
   width: 17rem;
 }
 
-.project-2 .project-title {
+.project-1 .project-title {
   margin: 1rem 1rem;
   font-size: 1.5rem;
+}
+
+.project-3 .project-title {
+  margin: 1rem 1rem;
+  font-size: 1.6rem;
 }
 
 /* CONTACT */
 
 #contact {
+  position: relative;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -478,8 +491,7 @@ article .icon {
 /* FOOTER SECTION */
 
 footer {
-  height: 26vh;
-  margin: 5rem 1rem 0 1rem;
+  margin: 15rem 1rem 1rem 1rem;
 }
 
 footer p {
